@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="82px" height="82px" viewBox="0 0 82 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Icons" transform="translate(-740.000000, -545.000000)" stroke="#FAD503" stroke-width="4.193">
+            <g id="Page-1" transform="translate(742.000000, 547.000000)">
+                <path d="M66.0005,38.6406 C66.0005,53.7506 53.7505,66.0006 38.6405,66.0006 C23.5305,66.0006 11.2805,53.7506 11.2805,38.6406 C11.2805,23.5306 23.5305,11.2806 38.6405,11.2806 C53.7505,11.2806 66.0005,23.5306 66.0005,38.6406 Z" id="Stroke-1"></path>
+                <path d="M38.6407,11.5825 L38.6407,19.3805" id="Stroke-3"></path>
+                <path d="M38.6407,58.2025 L38.6407,66.0005" id="Stroke-5"></path>
+                <path d="M66.0005,38.6406 L58.2025,38.6406" id="Stroke-7"></path>
+                <path d="M19.0787,38.6406 L11.2807,38.6406" id="Stroke-9"></path>
+                <polygon id="Stroke-11" points="31.9241 47.5651 35.1071 35.9811 45.3571 29.7161 42.1741 41.3001"></polygon>
+                <path d="M77.1846,38.6406 C77.1846,59.9276 59.9276,77.1846 38.6406,77.1846 C17.3536,77.1846 0.0966,59.9276 0.0966,38.6406 C0.0966,17.3536 17.3536,0.0966 38.6406,0.0966 C59.9276,0.0966 77.1846,17.3536 77.1846,38.6406 Z" id="Stroke-13"></path>
+            </g>
+        </g>
+    </g>
+</svg>

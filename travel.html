@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>TravelIndia | Contact</title>
+
+
+</head>
+
+<body>
+  <header id="contact-2">
+    <nav>
+      <div class="logo">
+        <img src="/Image/icon.png" alt="" />
+        <h1 class="animate__heartBeat animate__infinite" id="head">
+          TravelIndia
+        </h1>
+      </div>
+
+      <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="india.html" target="_blank">About India</a>
+        <a href="#">States in India</a>
+        <a href="#">Packages</a>
+      </div>
+    </nav>
+
+    <main>
+      <section>
+        <h3 id="contact-1">
+          Book Your Best Holiday for relaxed <br />
+          retreats and cultural encounters
+        </h3>
+        <h1><span class="change_content_contact"></span></h1>
+      </section>
+    </main>
+  </header>
+
+  <!-- Contact -->
+
+  <div class="container" >
+    <form name="booking" id="contact" onsubmit="return formValidation(this)">
+      <h3>TravelIndia Contact Form</h3>
+      <h4>Contact us for Bookings</h4>
+
+     <fieldset>
+        <input  class="form-control" id="name" placeholder="Enter Your Name" type="text" tabindex="1" name="name" />
+      </fieldset>
+
+
+       <fieldset>
+        <input id="phone" class="form-control" placeholder="Your Contact Number" type="text" tabindex="2" name="phone" />
+      </fieldset>
+
+      <fieldset>
+        <input id="no_people" class="form-control" placeholder="No. of Persons" type="text" tabindex="3" name="no_people" />
+      </fieldset>
+
+
+      <fieldset>
+        <input  class="form-control" id="email" placeholder="Your Email Address" type="text" tabindex="4" name="email" />
+      </fieldset>
+
+
+
+
+      <fieldset>
+        <select id="package"  class="form-control" name="package">
+          <option selected disabled value="">Choose Your Package</option>
+          <option value="HimalchalPradesh">Himachal Pradesh</option>
+          <option value="Assam">Assam</option>
+          <option value="Kerala">Kerala</option>
+          <option value="LehLadakh">Leh Ladakh</option>
+          <option value="Punjab">Punjab</option>
+          <option value="WestBengal">West Bengal</option>
+        </select>
+      </fieldset>
+
+
+
+      <fieldset>
+        <textarea placeholder="Type your message here...." tabindex="5" name="description"></textarea>
+      </fieldset>
+
+
+
+
+      <fieldset>
+        <button name="submit" type="submit" id="submit" data-submit="...Sending">
+          Submit
+        </button>
+      </fieldset>
+    </form>
+  </div>
+
+  <!-- Contact Page End -->
+
+  <!-- Footer -->
+
+  <footer>
+    <div class="moto">
+      <div class="mission">
+        <div class="logo">
+          <img src="/Image/icon.png" alt="" />
+
+          <h1 id="p1">
+            <span class="orange">Trav</span>elI<span class="green">ndia</span>
+          </h1>
+        </div>
+
+        <p>
+          Building a legacy of redefining travel, inspiring to explore and
+          sharing reasons to celebrate life!
+        </p>
+      </div>
+      <div class="mission">
+        <h1>
+          #<span class="orange">Cele</span>brate<span class="green">Life</span>
+        </h1>
+        <p>
+          At TravelIndia, we believe in celebrating life and that is what
+          makes us the absolute best.
+        </p>
+      </div>
+    </div>
+    <div class="newsletter">
+      <p>Get Latest Deals, Upcoming Offers and Travel Guides</p>
+      <form action="">
+        <input type="email" placeholder="Enter Email" />
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+
+    <br />
+    <br />
+    <br />
+
+    <div class="contact">
+      <div class="link">
+        <a href="#"><img src="/Image/facebook.png" alt="" /></a>
+        <a href="#"><img src="/Image/instagram.png" alt="" /></a>
+        <a href="#"><img src="/Image/twitter.png" alt="" /></a>
+        <a href="#"><img src="/Image/youtube.png" alt="" /></a>
+      </div>
+      <hr />
+    </div>
+
+    <div class="copyright">
+      <p>Copyright &copy; 2020, Deep</p>
+    </div>
+  </footer>
+
+  <!-- Footer -->
+
+
+
+
+
+      <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <script>
+      function formValidation(booking)
+      {
+         /* var name=document.booking.name.value;
+          var city = document.booking.city.value;
+          var email = document.booking.email.value;
+          var password = document.booking.password.value;
+          var address = document.booking.address.value;
+          var no_of_people = document.booking.no_of_people.value;
+          var type_of_room = document.booking.type_of_room.value;
+          var phone=document.booking.phone.value;
+          var check_in_date = document.booking.check_in_date.value;
+          var check_out_date = document.booking.check_out_date.value;
+          var gridCheck=document.booking.gridCheck.value;*/
+          var email = document.booking.email.value;
+          var name=document.booking.name.value;
+          var phone=document.booking.phone.value;
+          var no_people=document.booking.no_people.value;
+          
+          var package=document.getElementById('package');
+        
+          if(check_required(name,package)){
+            if(check_people(no_people)){
+              if(check_Email(email)){             
+                if(phonenumber(phone)){
+                  alert("Form Submitted Succesfully!");
+                }     
+              } 
+            }
+          }
+          function check_people(no_people){
+
+            if(no_people=='' || no_people==null){
+              alert(no_people);
+              alert("Number of People is mandatory");
+              return false;
+            }
+            
+              return true;
+          }
+          
+          
+
+
+
+      function check_Email(email){
+            var regex = /^(([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5}){1,25})+([;.](([a-zA-Z0-9_\-\.]+)@{[a-zA-Z0-9_\-\.]+0\.([a-zA-Z]{2,5}){1,25})+)*$/;
+            if(regex.test(email)){              
+              return true;
+            }
+            else{
+              alert("This is not a valid email address");
+                return false;
+            }
+      }
+      function check_required(name,package,no_people){
+        
+            if (name == "" || name == null){
+              alert("Name is mandatory");
+              return false;
+            }
+            if(package.value=='' || package==null){
+              alert("Package is mandatory");
+              return false;
+            }
+           
+              return true;
+            
+      }
+      function passid_validation(password,mx,my){
+            var passid_len = password.length;
+            if (passid_len == 0 ||passid_len >= my || passid_len < mx)  {
+              alert("Password should not be empty / length be between "+mx+" to "+my);
+              passid.focus();
+              return false;
+            }else{
+              return true;
+            }              
+      }
+
+      function phonenumber(inputtxt)
+    {
+        var phoneno = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
+        if((inputtxt.match(phoneno))){
+          return true;
+        }else{
+          alert("Enter valid Phone number");
+          return false;
+        }
+}
+
+
+}
+    </script>
+
+
+
+
+</body>
+
+</html>
+
+<!-- Form 
+    
+    <form>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlSelect1">Example select</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlSelect2">Example multiple select</label>
+        <select multiple class="form-control" id="exampleFormControlSelect2">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Example textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+    </form>
+    
+     Form End -->

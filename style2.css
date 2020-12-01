@@ -1,0 +1,837 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ranchers&display=swap");
+
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: changeback 15s infinite linear;
+}
+
+nav {
+  width: 100%;
+  height: 15vh;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  /*background: rgba(0, 0, 0, 0.2); */
+}
+
+nav .logo {
+  width: 30%;
+  text-align: center;
+}
+
+.logo img {
+  float: left;
+  width: 70px;
+  height: 70px;
+  margin-left: 15px;
+  padding: 10px;
+}
+
+nav .logo h1 {
+  font-family: "Dancing Script", cursive;
+  font-weight: 500;
+  font-size: 3rem;
+  display: inline-block;
+  margin-left: -30px;
+  padding: 7.5px;
+}
+
+nav .menu {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav .menu a {
+  text-decoration: none;
+  width: 25%;
+  color: white;
+  font-weight: bold;
+  transition: transform 0.5s;
+}
+
+nav .menu a:hover {
+  color: rgba(255, 255, 255, 0.4);
+  transform: translateY(-5px);
+}
+/*
+nav .menu a:first-child {
+  color: #00b894;
+}
+*/
+main {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.style {
+  font-family: "Ranchers", cursive;
+  letter-spacing: 0.15rem;
+  font-size: larger;
+}
+
+section h3 {
+  font-size: 35px;
+  font-weight: 200;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px 2px black;
+}
+
+section h1 {
+  margin: 30px 0 20px 0;
+  font-size: 55px;
+  font-weight: 700;
+  text-shadow: 2px 1px 5px black;
+  text-transform: uppercase;
+}
+
+section p {
+  font-size: 25px;
+  word-spacing: 2px;
+  margin-bottom: 25px;
+  text-shadow: 1px 1px 1px black;
+}
+
+section a {
+  padding: 12px 30px;
+  border-radius: 4px;
+  outline: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: all 0.5s ease;
+}
+/* North */
+.change_content:after {
+  content: "";
+  animation: changetext 15s infinite linear;
+  color: #00b894;
+}
+
+@keyframes changetext {
+  0% {
+    content: "Himachal Pradesh";
+  }
+  13% {
+    content: "Punjab";
+  }
+  26% {
+    content: "Haryana";
+  }
+  39% {
+    content: "Rajasthan";
+  }
+  52% {
+    content: "jammu & Kashmir";
+  }
+  65% {
+    content: "Uttar Pradesh";
+  }
+  78% {
+    content: "Uttarakhand";
+  }
+  90% {
+    content: "Delhi NCR";
+  }
+  100% {
+    content: "Himachal Pradesh";
+  }
+}
+
+@keyframes changeback {
+  0% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/Image/north/himachal.jpg);
+    background-size: cover;
+  }
+  13% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/Image/north/punjab.jpg);
+    background-size: cover;
+  }
+  26% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/Image/north/haryana.jpg);
+    background-size: cover;
+  }
+  39% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/Image/north/rajasthan.jpg);
+    background-size: cover;
+  }
+  52% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/Image/north/kashmir.jpg);
+    background-size: cover;
+  }
+  65% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/Image/north/uttarpradesh.jpg);
+    background-size: cover;
+  }
+  78% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/Image/north/uttarakhand.jpg);
+    background-size: cover;
+  }
+  92% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/Image/north/delhi.jpg);
+    background-size: cover;
+  }
+  100% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/Image/north/himachal.jpg);
+    background-size: cover;
+  }
+}
+/* North End */
+
+/* NorthEast */
+
+#northeast {
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: northeastback 15s infinite linear;
+}
+
+.change_northeastcontent:after {
+  content: "";
+  animation: changenortheasttext 15s infinite linear;
+  color: #00b894;
+}
+
+@keyframes changenortheasttext {
+  0% {
+    content: "Arunachal Pradesh";
+  }
+  13% {
+    content: "Assam";
+  }
+  26% {
+    content: "Nagaland";
+  }
+  39% {
+    content: "Tripura";
+  }
+  52% {
+    content: "Sikkim";
+  }
+  65% {
+    content: "Meghalaya";
+  }
+  78% {
+    content: "Mizoram";
+  }
+  90% {
+    content: "Manipur";
+  }
+  100% {
+    content: "Arunachal Pradesh";
+  }
+}
+
+@keyframes northeastback {
+  0% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/Image/northeast/arunachal.jpg);
+    background-size: cover;
+  }
+  13% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/Image/northeast/assam.jpg);
+    background-size: cover;
+  }
+  26% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/Image/northeast/nagaland.jpg);
+    background-size: cover;
+  }
+  39% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/Image/northeast/tripura.jpg);
+    background-size: cover;
+  }
+  52% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/Image/northeast/sikkim.jpg);
+    background-size: cover;
+  }
+  65% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/Image/northeast/meghalaya.jpg);
+    background-size: cover;
+  }
+  78% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/Image/northeast/mizoram.jpg);
+    background-size: cover;
+  }
+  92% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/Image/northeast/manipur.jpg);
+    background-size: cover;
+  }
+  100% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/Image/northeast/arunachal.jpg);
+    background-size: cover;
+  }
+}
+/* NorthEast End */
+
+/* South */
+
+#south {
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: southback 15s infinite linear;
+}
+
+.change_southcontent:after {
+  content: "";
+  animation: changesouthtext 15s infinite linear;
+  color: #00b894;
+}
+
+@keyframes changesouthtext {
+  0% {
+    content: "Andra Pradesh";
+  }
+  17% {
+    content: "Telangana";
+  }
+  34% {
+    content: "Kerala";
+  }
+  51% {
+    content: "Karnataka";
+  }
+  68% {
+    content: "Tamil Nadu";
+  }
+  85% {
+    content: "Andaman & Nicobar Island";
+  }
+  100% {
+    content: "Lakshadweep Island";
+  }
+}
+
+@keyframes southback {
+  0% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/Image/south/andrapradesh.jpg);
+    background-size: cover;
+  }
+  17% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/Image/south/telangana.jpg);
+    background-size: cover;
+  }
+  34% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/Image/south/kerala.jpg);
+    background-size: cover;
+  }
+  51% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/Image/south/karnataka.jpg);
+    background-size: cover;
+  }
+  68% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/Image/south/tamilnadu.jpg);
+    background-size: cover;
+  }
+  85% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/Image/south/andaman.jpg);
+    background-size: cover;
+  }
+  100% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/Image/south/lakshadweep.jpg);
+    background-size: cover;
+  }
+}
+
+/* South End */
+
+/* East */
+
+#east {
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: eastback 10s infinite linear;
+}
+
+.change_eastcontent:after {
+  content: "";
+  animation: changeeasttext 10s infinite linear;
+  color: #00b894;
+}
+
+@keyframes changeeasttext {
+  0% {
+    content: "Jharkhand";
+  }
+  33% {
+    content: "Orissa";
+  }
+  66% {
+    content: "West Bengal";
+  }
+  100% {
+    content: "Bihar";
+  }
+}
+
+@keyframes eastback {
+  0% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/Image/east/jharkhand.jpg);
+    background-size: cover;
+  }
+  33% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/Image/east/orissa.jpg);
+    background-size: cover;
+  }
+  66% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/Image/east/westbengal.jpg);
+    background-size: cover;
+  }
+  100% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/Image/east/bihar.jpg);
+    background-size: cover;
+  }
+}
+
+/* East End */
+
+/* West */
+
+#west {
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: westback 10s infinite linear;
+}
+
+.change_westcontent:after {
+  content: "";
+  animation: changewesttext 10s infinite linear;
+  color: #00b894;
+}
+
+@keyframes changewesttext {
+  0% {
+    content: "Goa";
+  }
+  25% {
+    content: "Maharashtra";
+  }
+  50% {
+    content: "Gujarat";
+  }
+  75% {
+    content: "Dadra & Nagar Haveli";
+  }
+  100% {
+    content: "Daman & Diu";
+  }
+}
+
+@keyframes westback {
+  0% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/Image/west/goa.jpg);
+    background-size: cover;
+  }
+  25% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/Image/west/maharashtra.jpg);
+    background-size: cover;
+  }
+  50% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/Image/west/gujarat.jpg);
+    background-size: cover;
+  }
+  75% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/Image/west/dadra.jpg);
+    background-size: cover;
+  }
+  100% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/Image/west/daman.jpg);
+    background-size: cover;
+  }
+}
+
+/* West End */
+
+/* Central */
+
+#central {
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: centralback 2s infinite linear;
+}
+
+.cards #c {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.change_centralcontent:after {
+  content: "";
+  animation: changecentraltext 2s infinite linear;
+  color: #00b894;
+}
+
+@keyframes changecentraltext {
+  0% {
+    content: "Chhattisgrah";
+  }
+  100% {
+    content: "Madhya Pradesh";
+  }
+}
+
+@keyframes centralback {
+  0% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/Image/central/chhattisgrah.jpg);
+    background-size: cover;
+  }
+  100% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/Image/central/madhya.jpg);
+    background-size: cover;
+  }
+}
+
+/* Central End */
+
+.para {
+  margin-top: 50px;
+  align-items: center;
+}
+
+.para h3 {
+  text-align: center;
+  margin-bottom: 50px;
+  position: relative;
+  text-decoration: underline crimson;
+}
+
+.para p {
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 10px;
+  word-spacing: 0.15rem;
+  font-size: 15px;
+  position: relative;
+  opacity: 0.7;
+}
+
+/* Card Style */
+
+.cards {
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 90px;
+  margin-bottom: 60px;
+}
+
+.card-info {
+  display: flex;
+  margin: 30px 30px;
+  flex-wrap: nowrap;
+  margin-top: 50px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-1 {
+  flex-basis: 33%;
+  margin-left: 30px;
+  margin-right: 30px;
+  position: relative;
+  height: 80vh;
+  box-shadow: 0px 0 12px 0px rgba(0, 0, 0, 0.4);
+}
+
+.cards h1 {
+  text-align: center;
+}
+
+.card-1 .fa {
+  margin-right: 8px;
+}
+
+.card-1 p {
+  margin-bottom: 10px;
+}
+
+.card-1 .fa-star {
+  color: yellow;
+}
+
+.fa-star-half-o {
+  color: yellow;
+}
+
+.fa-star-o {
+  color: yellow;
+}
+
+.card-1 img {
+  position: relative;
+  height: 50%;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.card-2 {
+  margin: 10px 30px;
+  overflow: hidden;
+}
+
+#c1 {
+  float: left;
+}
+
+#c2 {
+  float: right;
+}
+
+.card-1 button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: blue;
+  border: 1px blue solid;
+  opacity: 0.7;
+  color: white;
+}
+
+.card-1 button:hover {
+  color: blue;
+  opacity: 0.7;
+  background-color: white;
+}
+
+/* Card style */
+
+/* Footer  */
+footer {
+  background: #35424a;
+  padding-bottom: 30px;
+}
+
+.moto {
+  display: flex;
+  color: white;
+  margin-top: 30px;
+}
+
+#a {
+  flex-basis: 50%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.mission {
+  flex-basis: 50%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.moto p {
+  font-weight: 100;
+  font-size: 20px;
+
+  padding-left: 0;
+  left: 0;
+  margin-top: 30px;
+}
+
+.moto img {
+  position: relative;
+  top: -20px;
+}
+.orange {
+  color: orangered;
+  font-family: "Dancing Script", cursive;
+}
+
+.green {
+  color: green;
+  font-family: "Dancing Script", cursive;
+}
+
+.moto h1 {
+  font-family: "Dancing Script", cursive;
+  border: 1px transparent solid;
+}
+
+#b h1 {
+  position: relative;
+  top: 40px;
+  left: 30px;
+}
+
+/* newsletter */
+.newsletter {
+  background: #35424a;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.newsletter p {
+  margin-bottom: 30px;
+  color: white;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.newsletter input[type="email"] {
+  width: 300px;
+  height: 30x;
+  padding: 15px;
+  color: white;
+  background: #35424a;
+  font-size: 15px;
+  border: 1px white solid;
+}
+
+.newsletter button {
+  color: white;
+  border: 1px white solid;
+  width: 120px;
+  height: 40px;
+  background: #35424a;
+  margin-left: 30px;
+}
+
+/* Newsletter */
+
+.contact {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+
+.link img {
+  height: 50px;
+  margin: 30px 30px;
+}
+
+.link {
+  margin-left: 500px;
+}
+
+.link img:hover {
+  transform: scale(1.3, 1.3);
+}
+
+.number {
+  float: left;
+}
+
+.copyright {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Dancing Script", cursive;
+}
+
+/* Footer */
+
+/* button */
+
+.button-3 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.button-3 button {
+  padding: 20px;
+  background-color: blue;
+  border: 1px blue solid;
+  border-radius: 5px;
+}
+
+.button-3 a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+/* States Nav Menu */
+.sub-menu {
+  display: none;
+}
+
+.sub-menu li {
+  width: 200px;
+  margin-top: 15px;
+  list-style: none;
+  font-weight: 500;
+}
+
+.sub-menu li:hover {
+  color: rgba(255, 255, 255, 0.4);
+  transform: translateY(-3px);
+}
+
+.hover:hover .sub-menu {
+  position: absolute;
+  display: block;
+  color: white;
+}
+
+/* Sub menu end */
